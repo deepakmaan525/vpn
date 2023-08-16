@@ -1,0 +1,332 @@
+
+:root{
+    /* font size */
+--fs-14:14px;
+--fs-16:16px;
+--fs-18:18px;
+--fs-20:20px;
+--fs-25:25px;
+--fs-35:35px;
+--fs-50:50px;
+/* font weight */
+--fw-400:400;
+--fw-500:500;
+--fw-600:600;
+--fw-700:700;
+
+/* font color */
+--text-black:#0B132A;
+--text-red:#F53838;
+--text-white:#fff;
+--text-l-black:#4F5665;
+--text-l-grey:#AFB5C0;
+
+/* background color */
+--bg-red:#F53838;
+--bg-white:#fff;
+--bg-l-white:#fbfbfb;
+--bg-grey:#f8f8f8;
+}
+                            /* navbar */
+.f-nav-lasles{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+nav{
+    background-color: var(--bg-white);
+}
+.f-nav-vpn{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-700);
+    color: var(--text-black);
+}
+.f-nav-li{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}
+.f-nav-li:hover{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-red);
+}
+.f-nav-signin{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+.f-nav-signin:hover{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-red);    
+}
+.f-nav-signup{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-red);
+}
+.f-nav-signup:hover{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+    background-color: var(--bg-red);   
+}
+                                 /* hero secion */
+.f-want{
+    font-size: var(--fs-50);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+.f-lasles{
+    font-size: var(--fs-50);
+    font-weight: var(--fw-700);
+    color: var(--text-black);
+}
+.f-provide{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-l-black);
+}
+.f-vpn{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--text-l-black);
+}
+.f-started{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--bg-red);
+}
+.f-started:hover{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--text-white);
+}
+.btn-started:hover{
+    background-color: var(--bg-red);
+}
+.btn-started{  
+    background-color:var(--text-white) ;
+}
+.card{
+    background-color: var(--bg-white);
+}
+.f-numbers{
+    font-size: var(--fs-25);
+    font-weight: var(--fw-700);
+    color: var(--text-black);
+}
+.f-info{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}
+                                            /* 1st section */
+.f-main-p{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+.f-features{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}       
+                                            /* 2nd section */
+.bg-l-white{
+    background-color: var(--bg-l-white);
+}    
+.f-choose{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}      
+.f-let{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}
+.plan-card{
+    background-color: var(--bg-white);
+}
+.btn-select{
+background-color: var(--bg-white);
+}
+.btn-select:hover{
+background-color: var(--bg-red);
+}
+.f-btn-select{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--bg-red);
+}                                  
+.f-btn-select:hover{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--bg-white);
+}
+.f-free_plan{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}    
+.f-plan-features{
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}       
+.f-free{
+    font-size: var(--fs-25);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}  
+.f-mo{
+    font-size: var(--fs-25);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}      
+                                            /* 3rd section */
+.f-huge{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}     
+.f-see{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}                                       
+                                            /* 4th section */
+.f-trusted{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+.f-these{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}      
+.f-wow{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-black); 
+}     
+.f-viezh{
+    font-size: var(--fs-14);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}  
+.f-warsaw{
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}  
+.f-rating{
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--text-black);
+} 
+
+.rightarrow:hover{  
+   border: 2px solid var(--text-red); 
+  background-color: var(--bg-red); 
+} 
+.rightarrow > svg path {
+fill: var(--bg-red);
+}  
+.rightarrow:hover > svg path {
+fill: var(--text-white);
+}
+
+.leftarrow:hover{  
+  background-color: var(--bg-red);  
+} 
+.leftarrow > svg path {
+fill: var(--bg-red);
+}  
+.leftarrow:hover > svg path {
+fill: var(--text-white);
+}  
+                                              /* 5th section */
+.card-subscribe{
+    background-color: var(--bg-white);
+}  
+.f-btn-subscribe{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--text-red);
+}  
+.f-btn-subscribe:hover{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--text-white);
+}  
+.btn-subscribe{
+    background-color: var(--bg-white);
+}                                          
+.btn-subscribe:hover{
+    background-color: var(--bg-red);
+} 
+.f-subscribe{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}  
+.f-lets{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-black);
+}                                       
+                                            /* footer */
+.bg-gray{
+    background-color: var(--bg-grey);
+}  
+.f-footer-lasles{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+} 
+.f-footer-vpn{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-700);
+    color: var(--text-black);
+} 
+.f-location{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black);
+}   
+.f-laslesvpn{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-l-black);
+} 
+.f-2020{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-grey);
+} 
+.f-footer2-vpn{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-l-grey); 
+}
+.f-main-li{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-500);
+    color: var(--text-black); 
+}
+.f-footer-li{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-l-black); 
+}
+@media (min-width:576px) {
+    .f-viezh{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-500);
+        color: var(--text-black);
+    }  
+}
