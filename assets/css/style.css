@@ -263,7 +263,7 @@ ul {
 }
 
 .comments-card:hover {   
-    border: 2px solid var(--text-red);   
+    border: 2px solid var(--text-red);  
 }
 
 .comments-card2 {
