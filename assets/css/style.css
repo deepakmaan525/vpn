@@ -400,7 +400,7 @@ ul {
     transition: .2s;
 }
 .pb-10 {
-    padding-bottom: 10px;
+    padFding-bottom: 10px;
 }
                                                         /* footer */
 .pb-60 {
@@ -571,3 +571,23 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+ .slick-list{
+    overflow:visible !important;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+  } 
+ 
