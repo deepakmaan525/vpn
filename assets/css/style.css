@@ -251,7 +251,9 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-
+.slider{
+    overflow: visible;
+}
 .comments-card {
     max-width: 400px;
     border-radius: 10px;
@@ -294,14 +296,27 @@ ul {
 
 .slick-dots li.slick-active button:before {
     opacity: 0.75;
-    color: red !important;
+    background-color: red !important;
     font-size: 21px;
+    width: 68px;
+    border-radius: 35px;
+    transition: ease-out 200ms all;   
 }
-
+.slick-dots li button:before {
+    font-family: slick;   
+    width: 20px;
+    height: 20px;
+    content: ''!important;
+    background-color: black;
+    border-radius: 50%;   
+    opacity: .25;   
+}
+.slick-dots li{
+    margin: 0 14px !important;
+}
 .slick-dots li button:before {
     font-size: 21px !important;
 }
-
 .slick-dots {
     text-align: left !important;
     margin-top: 30px !important;
@@ -309,11 +324,9 @@ ul {
     position: absolute;
     bottom: -50px !important;
 }
-
 .pl-82 {
     padding-left: 82px;
 }
-
 .pl-100 {
     padding-left: 100px;
 }
@@ -371,7 +384,7 @@ ul {
     border-radius: 10px;
     position: absolute;
     right:20% ;
-    top: -281px;
+    top: -278px;
 }
 .f-btn-subscribe {
     padding: 17px 65px;
@@ -438,7 +451,7 @@ ul {
         border-radius: 10px;
         position: absolute;
         right:20% ;
-        top: -250px;
+        top: -210px;
     }
     .leftarrow{
         position: absolute;
